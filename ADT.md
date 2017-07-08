@@ -56,7 +56,10 @@
 ### 抽象数据类型实现
 
 * 数据操作分离
-* `` typedef sturct( elentp *elemint 
+
+```c
+
+	typedef sturct( elentp *elemint 
 	int curlern;
 	int maxlen;
 	}
@@ -66,7 +69,10 @@
 		int(La); 
 		//sqlsttp 表示在线性表存储结构
 		//La访问	`` 
-		
+```
+
+
+
 * ### ADT（abstract data type）
 > 是指一个数学模型以及定义在该模型上的一组操作。
 数据类型的定义取决于他的一组逻辑特性 而不是在计算机内部的实现，只要数字特性不变就不会改变
@@ -125,7 +131,8 @@
 ### 抽象数据类型实现
 
 * 数据操作分离
-``	typedef sturct( elentp *elemint 
+```c
+typedef sturct( elentp *elemint 
 	int curlern;
 	int maxlen;
 	}
@@ -134,10 +141,12 @@
 		sqlsttp La
 		int(La); 
 		//sqlsttp 表示在线性表存储结构
-		//La访问	`` 
-		
+		//La访问 
+```		
+
 * 数据操作整体
-  * ``template<class elemntp>
+```c
+  	template<class elemntp>
   	class Sqlist (elemtp * elem, int curlen,int maxlen,
 	public 
 	SqList(int maxsz= 100)
@@ -145,7 +154,8 @@
 	bool inst (int loc,elemtp el)
 	elemtp dele (int loc)，}
 	SqList sqlist
-	``
+```
+
 
 * 问题涉及的对象识为解决问题的对象 对象属性对应的操作建立对象的类结构 来实现对应的操作
    * 这就是面向对象的实现 方法 类的定义充分的体现了 抽象数据类型的操作 可以把我局部的变换
@@ -155,7 +165,7 @@
 
 	 
 * List ADT
-* ``
+```c
 	template<class elemtp>
 	class List 
 	public 
@@ -166,5 +176,8 @@
 			virtual bool inst(int loc,elemtp el)=0
 			virtual elemtp dele(int loc)=0
 			virtual bool empt()=0
-``
-	 
+```
+
+
+
+
