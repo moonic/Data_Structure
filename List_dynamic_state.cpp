@@ -70,7 +70,7 @@ void ListDelete(SqList *L,int i,ElemType *e)
         L->data[k-1]=L->data[k];
     }
     L->length--;
-    return;
+    return; 
 }
 int ListLength(SqList L)
 //返回线性表的元素个数 
