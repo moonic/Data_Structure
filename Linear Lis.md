@@ -51,7 +51,6 @@ typedef struct LNode {
 } LNode, *LinkList;
 ```
 
-
 * 插入结点
 	* 假设要在单链表的a结点和b结点之间插入一个值为x的新结点。
 	* 如下图所示，指针s指向一个值为x的结点，为了插入s。
@@ -71,4 +70,3 @@ typedef struct LNode {
      	* p是链表中的第一个结点
       * 将L指向p->next。
       * 释放p。
- 
