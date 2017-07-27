@@ -106,7 +106,3 @@
 			virtual elemtp dele(int loc)=0
 			virtual bool empt()=0
 ```
-
-
-
-
