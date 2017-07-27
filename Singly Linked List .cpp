@@ -1,4 +1,3 @@
-
 //单链表定义
 struct Node  
 {  
