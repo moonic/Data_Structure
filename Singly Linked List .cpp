@@ -114,6 +114,7 @@ void LinkedListInertQE2(LinkedList L, LinkedList p, ElemType e)
   q->next=pre->next;  
   pre->next=q;  
 }  
+
 //不带头结点的单链表的删除操作  
 void LinkedListDeleteQE1(LinkedList L, LinkedList p, ElemType e)  
 {  
