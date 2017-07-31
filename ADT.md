@@ -77,7 +77,7 @@
 ```c
   	template<class elemntp>
   	class Sqlist (elemtp * elem, int curlen,int maxlen,
-	public 
+	public  
 	SqList(int maxsz= 100)
 	~SqlIst(delete[] elem)
 	bool inst (int loc,elemtp el)
