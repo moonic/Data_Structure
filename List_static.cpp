@@ -74,6 +74,7 @@ int ListLength(SqList L)
 {
     return L.length;
 }
+
 void show(SqList L)
 {
     for(int i=0;i<l.length;i++) code="" d="" elemtype="" sqlist="" void=""></l.length;i++)></l->
