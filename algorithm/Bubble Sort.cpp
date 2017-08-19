@@ -18,6 +18,7 @@ void bubble_sort(int a[], int n)
         }
 }
  
+
 int main()
 {
     int number[SIZE] = {95, 45, 15, 78, 84, 51, 24, 12};
