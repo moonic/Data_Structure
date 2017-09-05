@@ -4,7 +4,7 @@
 typedef int ElemType;   //线性表中的元素类型
 
   
-typedef struct
+typedef struct 
 {
     ElemType *data;
     int length;
