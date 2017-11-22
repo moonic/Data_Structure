@@ -5,7 +5,7 @@ typedef int ElemType;   //线性表中的元素类型
 
   
 typedef struct  
-{
+{ 
     ElemType *data;
     int length;
 }SqList;                //通过动态数组定义线性表结构体
