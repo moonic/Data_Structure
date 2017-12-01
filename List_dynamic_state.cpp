@@ -8,7 +8,7 @@ typedef struct
 { 
     ElemType *data;
     int length;
-}SqList;                //通过动态数组定义线性表结构体
+}SqList;                //通过动态数组定义线性表结构体 
  
 void InitList(SqList *L)
 //初始化操作，建立一个空的线性表L 
