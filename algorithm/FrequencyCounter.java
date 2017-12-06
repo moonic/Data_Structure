@@ -7,7 +7,7 @@ public class FrequencyCounter
       while (!StdIn.isEmpty())
       { // 构造符号表并统计频率
     String word = StdIn.readString();
-      if (word.length() < minlen) continue; // 忽略较短的单词
+      if (word.length() < minlen) continue; // 忽略较短的单词 
       if (!st.contains(word)) st.put(word, 1);
      else st.put(word, st.get(word) + 1);
   }
