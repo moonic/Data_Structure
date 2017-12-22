@@ -1,6 +1,6 @@
 /* list.h --- 
   * 
-  * Filename: list.h
+  * Filename: list.h 
   * Description: 链表抽象接口定义
   */
  
