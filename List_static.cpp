@@ -1,10 +1,10 @@
 #include<stdio.h>
 #define MAXSIZE 20      //线性表的初始大小
-typedef int ElemType;   //线性表中的元素类型
+typedef int ElemType;   //线性表中的元素类型 
  
 typedef struct
 {
-    ElemType data[MAXSIZE];
+    ElemType data[MAXSIZE]; 
     int length;
 }SqList;                //通过静态数组定义线性表结构体
  
