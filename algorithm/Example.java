@@ -12,7 +12,7 @@ public class Example{
      StdOut.println();
   }
 public static boolean isSorted(Comparable[] a)
-{ // 测试数组元素是否有序
+  { // 测试数组元素是否有序
     for (int i = 1; i < a.length; i++)
       if (less(a[i], a[i-1])) return false;
       % more tiny.txt
@@ -20,14 +20,13 @@ public static boolean isSorted(Comparable[] a)
 % java Example < tiny.txt
 A E E L M O P R S T X
 
-return true;
+    return true;
 }
-public static void main(String[]
-args)
-{ // 从标准输入读取字符串，将它们排序并输出
-String[] a = In.readStrings();
-sort(a);
-assert isSorted(a);
-show(a);
-}
+public static void main(String[]args)
+  { // 从标准输入读取字符串，将它们排序并输出
+     String[] a = In.readStrings();
+     sort(a);
+   assert isSorted(a);
+    show(a);
+  }
 }
