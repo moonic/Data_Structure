@@ -3,7 +3,7 @@
 #define MAXSIZE 20      //线性表的初始大小
 typedef int ElemType;   //线性表中的元素类型
 
-  
+
 typedef struct  
 { 
     ElemType *data;
