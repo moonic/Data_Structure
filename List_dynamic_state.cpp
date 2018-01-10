@@ -33,7 +33,7 @@ void GetElem(SqList L, int i, ElemType *e)
 void ListInsert(SqList *L,int i,ElemType e)
 //在线性表L的第i个位置插入新元素e 
 {
-    if(L->length==MAXSIZE)
+    if(L->length==MAXSIZE) 
     {
         printf("线性表已满\n");   //这里可以通过realloc函数扩展线性表的大小，略
         return;
