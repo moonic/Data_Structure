@@ -16,7 +16,7 @@ void LinkedListInit1(LinkedList L)
 }  
 //带头结点的单链表的初始化  
 void LinkedListInit2(LinkedList L)  
-{  
+{   
   L=(LNode *)malloc(sizeof(LNode));  
   if(L==NULL)  
   {  
